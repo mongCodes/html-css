@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+
+    background-color: chocolate;
+    text-decoration: none;
+}
+
+
+a:hover {
+    width: 200px;
+    background-color: black;
+    color: tomato;
+}

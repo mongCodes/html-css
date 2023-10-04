@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        div > p {
+            width: 200px;
+            background-color: black;
+            display: none;
+        }
+        
+        div:hover {
+            color: rgb(255, 72, 255);
+        }
+        div:hover > p {
+            display: block;
+        }
+        </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    Interagir com o texto abaixo
+    <div>
+        Interagir aqui.
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>
