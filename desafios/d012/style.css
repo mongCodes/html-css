@@ -1,0 +1,44 @@
+@charset "UT-8";
+
+
+body {
+    margin: 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+}
+
+p {
+    width: 165px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 97px 0px 97px 30px;
+    line-height: 2em;
+}
+section.girasol {
+    background: slategray url(imagens/background001.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 300px;
+}
+section.biblia {
+    background-color: slategray;
+    height: 300px;
+}
+section.normal {
+    background-color: white;
+}
