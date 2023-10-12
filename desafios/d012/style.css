@@ -5,9 +5,20 @@
     src: url(fonte/Passion_One/PassionOne-Bold.ttf);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkslategrey;
+}
+
 body {
     size: 200px;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "passion", Arial, Helvetica, sans-serif;
 }
 
@@ -15,55 +26,60 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    margin: auto;
-    padding: 40px;
+    padding: 50px 0px 50px 0px;
+    font-variant: small-caps;
+}
+h1 {
+    padding-top: 50px;
 }
 
 p {
-    width: 150px;
-    height: 200px;
-    margin-left: 20px;
-    margin-bottom: 10%;
+    padding-bottom: 50px;
+    padding-left: 15px;
 }
 p.fundo {
     background-color: rgba(0, 0, 0, 0.452);
     color: white;
-    padding: 20px;
-    height: 300px;
+    width: 400px;
 }
 
-a.link {
+a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
-a.link:hover {
+a:hover {
     text-decoration: underline;
 }
 
 section {
     padding: 97px 0px 97px 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
 }
-section.girasol {
-    background: slategray url(imagens/background001.jpg) no-repeat center center fixed;
-    background-size: cover;
+section.imagem {
+    background-color: rgb(71, 71, 71);
     min-height: 400px;
     max-height: 1000px;
-    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.521);
-}
-section.biblia {
-    background: slategray url(imagens/background002.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 400px;
     box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.521);
 }
 section.normal {
     background-color: white;
 }
+
+#girassol {
+    background:url(imagens/background001.jpg) center center no-repeat fixed ;
+    background-size: cover;
+}
+#biblia {
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 footer {
     background-color: black;
     color: white;
     padding: 10px;
-    margin-top: 10%;
     text-align: center;
 }
