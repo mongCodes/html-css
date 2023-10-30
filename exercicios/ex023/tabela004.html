@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablea 4</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            background-color: slategrey;
+            color: white;
+            padding: 15px;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        thead, tfoot {
+            background-color: rgb(94, 102, 110);
+            color: aliceblue;
+            font-weight: bold;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(94, 102, 110);
+        }
+        tr:nth-child(2n) {
+            background-color: lightslategray;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 15px;
+        }
+        td.num {
+            text-align: right;
+            width: 55px;
+        }
+        p {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela aleatoria</caption>
+        <thead>
+            <tr>
+                <th>Tipos</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>feijão</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>feijão</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>feijão</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>feijão</td>
+                <td class="num">1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>soma:</th>
+                <td class="num">10</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus inventore corrupti quaerat. Eaque culpa sint ducimus facilis officia, debitis, quo, excepturi amet atque iure optio dolorem aspernatur ratione? Tempore, dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus eius rem dignissimos optio consequatur blanditiis. Quas cumque asperiores obcaecati quasi laborum alias dolorem assumenda. Aliquam facere quos quasi aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, libero explicabo. Ea eum adipisci aut, magnam dolorem temporibus earum laborum soluta aspernatur cumque hic quos assumenda quam quidem enim consequuntur. lo
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore, perspiciatis aperiam quam iusto itaque corporis non! Id rem, nemo nihil ipsum nam iusto! Soluta ut voluptatibus numquam praesentium. Magni.
+    </p>
+</body>
+</html>
