@@ -9,16 +9,11 @@
     <form action="cadastro.php" method="post" autocomplete="off">
         <p>
             <label for="inome">nome:</label>
-            <input type="text" name="nome" id="inome" minlength="4" maxlength="10" size="15">
+            <input type="text" name="nome" id="inome" minlength="4" maxlength="10" size="15" required placeholder="seu nome">
         </p>
-
-
-
-
-
         <p>
             <label for="isen">senha:</label>
-            <input type="password" name="sen" id="isen" minlength="8" maxlength="20" size="15">
+            <input type="password" name="sen" id="isen" minlength="8" maxlength="20" size="15" required placeholder="min 8 letras">
         </p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
