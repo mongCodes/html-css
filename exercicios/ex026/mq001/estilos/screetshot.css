@@ -8,7 +8,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-indent: 40px;
     line-height: 1.5em;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 li {
@@ -18,3 +18,6 @@ li {
 article::after {
     content: 'BlaBlaBlaBlaBlaBlaBlaBlaa';
 }
+ article {
+    width: 100%;
+ }
