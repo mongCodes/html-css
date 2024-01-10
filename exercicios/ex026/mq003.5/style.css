@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/*CSS Geral (todas as telas etc)*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.61);
+}
+
+
+
+/*CSS para telas em modo paisagem(landscape)*/
+
+@media  screen and (orientation: landscape) {
+    
+    body {
+        background: url(../imagens/cev-landscape.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+}
+
+
+
+/* CSS para telas em modo retrado(portrait)*/
+
+@media screen and (orientation: portrait) {
+    
+    body {
+        background: url(../imagens/cev-portrait.jpg);
+        background-repeat: no-repeat;
+    background-position: center bottom;
+}
+}
