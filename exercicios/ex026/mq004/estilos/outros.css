@@ -10,10 +10,17 @@
     main {
         width: 500px;
         border: black solid 2px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.493);
     }
 
     main::after {
         content: 'Essa impressão foi feita atravez de chulala';
+    }
+
+    main h1 {
+        text-decoration: none;
+        color: black;
+        text-shadow: none;
     }
 
     img#cell { display: none;}
@@ -53,7 +60,7 @@
 }
 
 /*notbook-pc*/
-@media screen and (min-width: 992px) and (max-width: 1100px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
     img#cell { display: none;}
 
