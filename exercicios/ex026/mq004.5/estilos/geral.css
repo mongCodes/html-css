@@ -8,6 +8,36 @@
     box-sizing: border-box;
 }
 
-body {
-    background: black url();
+html {
+    height: 100vh;
 }
+
+
+main {
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 450px;
+    
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+main h1 {
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);
+}
+
+img#print { display: none; }
+
+img#cell { display: none; }
+
+img#tablet { display: none; }
+
+img#pc { display: none; }
+
+img#tv { display: none; }
+

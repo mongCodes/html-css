@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
-@media screen (min-width: 768px) and (max-width: 992px) {
-    
+body {
+    background-image: url("../imagens/back-phone.jpg");
 }
+
+
+img#print { display: none; }
+
+img#cell { display: block; }
+
+img#tablet { display: none; }
+
+img#pc { display: none; }
+
+img#tv { display: none; }
