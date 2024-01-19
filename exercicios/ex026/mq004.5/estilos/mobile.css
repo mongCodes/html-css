@@ -1,16 +1,37 @@
 @charset "UTF-8";
 
-body {
-    background-image: url("../imagens/back-phone.jpg");
+@media screen and (min-width:500px) and (max-width: 700px) {
+    body {
+        background-image: url("../imagens/back-phone.jpg");
+    }
+    
+    
+    img#print { display: none; }
+    
+    img#cell { display: block; }
+    
+    img#tablet { display: none; }
+    
+    img#pc { display: none; }
+    
+    img#tv { display: none; }
+    
 }
 
-
-img#print { display: none; }
-
-img#cell { display: block; }
-
-img#tablet { display: none; }
-
-img#pc { display: none; }
-
-img#tv { display: none; }
+@media screen and (min-width: 700px) and (max-width: 994px) {
+    body {
+        background-image: url("../imagens/back-tablet.jpg");
+    }
+    
+    
+    img#print { display: none; }
+    
+    img#cell { display: none; }
+    
+    img#tablet { display: block; }
+    
+    img#pc { display: none; }
+    
+    img#tv { display: none; }
+    
+}
