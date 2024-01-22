@@ -71,6 +71,7 @@ img#tv { display: none; }
 
     main h1 {
         text-shadow: none;
+        color: black;
     }
 
 
