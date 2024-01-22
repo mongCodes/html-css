@@ -25,6 +25,7 @@ main {
     width: 450px;
     padding: 10px;
 
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.185);
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -52,4 +53,36 @@ img#tablet { display: none; }
 img#pc { display: none; }
 
 img#tv { display: none; }
+    
+@media print {
+    * {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+    }
+
+    main {
+        border: black solid 1px;
+        box-shadow: none;
+    }
+
+    main::after {
+        content: 'Pegam nobruzerapelão';
+    }
+
+    main h1 {
+        text-shadow: none;
+    }
+
+
+    img#print { display: block; }
+
+    img#cell { display: none; }
+
+    img#tablet { display: none; }
+
+    img#pc { display: none; }
+
+    img#tv { display: none; }
+    
+}
 
