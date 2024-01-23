@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgba(173, 198, 223, 0.548);
+    
+    height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+}
+
+header {
+    background-color: slategrey;
+
+    padding: 10px;
+    margin: auto;
+}
+
+menu {
+    padding-top: 50px;
+}
+
+menu li {
+    background-color: rgb(52, 97, 141);
+
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main {
+    background-color: rgba(112, 128, 144, 0.178);
+
+    height: 80vh;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+p {
+    margin-top: 30px;
+}
