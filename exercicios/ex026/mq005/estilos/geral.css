@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgba(173, 198, 223, 0.548);
+    background-color: rgba(131, 151, 172, 0.61);
     
     height: 100vh;
 }
@@ -19,21 +19,39 @@ body {
 
 header {
     background-color: slategrey;
-
-    padding: 10px;
     margin: auto;
+    padding-bottom: 3px;
+}
+
+h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+i#burg {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 7px;
+}
+
+i#burg:hover {
+    background-color: white;
+    color: black;
+    
 }
 
 menu {
-    padding-top: 50px;
+    display: none;
 }
 
 menu li {
-    background-color: rgb(52, 97, 141);
+    background-color: rgba(81, 93, 104, 0.884);
 
     padding: 5px;
-    border-radius: 5px;
-    display: inline;
+    margin-top: 3px;
+    text-align: center;
 }
 
 a {
@@ -43,15 +61,18 @@ a {
 }
 
 main {
-    background-color: rgba(112, 128, 144, 0.178);
-
-    height: 80vh;
-    width: 700px;
-    margin: auto;
+    background-color:rgba(255, 255, 255, 0.521);
+    width: 90vw;
     padding: 10px;
     padding-top: 40px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
-p {
+article p {
     margin-top: 30px;
+    line-height: 1.5em;
+    text-indent: 40px;
 }
