@@ -20,7 +20,7 @@ body {
 header {
     background-color: slategrey;
     margin: auto;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -44,13 +44,16 @@ i#burg:hover {
 
 menu {
     display: none;
+    padding-top: 20px;
 }
 
 menu li {
     background-color: rgba(81, 93, 104, 0.884);
-
+    
     padding: 5px;
+    border-radius: 5px;
     margin-top: 3px;
+    margin-left: 2px;
     text-align: center;
 }
 
