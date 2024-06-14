@@ -1,2 +1,29 @@
 @charset "UTF8";
 
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-size: 1em;
+
+}
+
+body {
+    margin: auto;
+    width: 400px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu {display: none;}
+
+main h1 {
+    width: 600px;
+    margin: 50px 0px 25px 0px;
+}
+
+article::after {
+    content: 'yoyoyoyoyoyoyo hahaha';
+}
