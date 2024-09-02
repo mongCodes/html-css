@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iframe 1</title>
+    <style>
+        body {
+            width: 500px;
+            margin: auto;
+        }
+        iframe {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, cumque. Ipsa ab, nam nisi natus animi cupiditate nulla, accusantium ut reiciendis quia soluta nesciunt? Quibusdam unde fugit corporis laboriosam voluptatum!</p>
 
-    <iframe src="frame" frameborder="0">
-        
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">P1</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">P2</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">P3</a></li>
+    </ul>
+
+    <iframe src="" name="frame"  srcdoc="<h1> Escolha uma das opções a cima </h1>">
+
     </iframe>
 </body>
 </html>
