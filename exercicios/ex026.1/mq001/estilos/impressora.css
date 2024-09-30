@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*impressora*/
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+menu {display: none;}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+article::after {
+    content: 'So pra lembrar mesmo';
+}
