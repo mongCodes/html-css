@@ -11,7 +11,7 @@
 
         /*celular*/
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
     body {
         background-image: url(../imagens/back-phone.jpg);
     }
@@ -68,7 +68,7 @@
 
         /*G-telas*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
     body {
         background-image: url(../imagens/back-tv.jpg);
