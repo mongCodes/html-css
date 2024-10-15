@@ -12,12 +12,12 @@ html {
 
 header {
     background-color: gray;
-    padding: 20px;
+    
 }
 
 header > h1 {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 menu {
@@ -30,14 +30,40 @@ menu > ul {
     
 }
 
+menu li {margin: 1px;}
+
+
 
 menu a {
     display: block;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(53, 53, 53);
     color: white;
     text-decoration: none;
     text-align: center;
-    margin: 10px;
     padding: 10px;
-    width: 80px;
+}
+
+menu a:hover {
+    background-color: rgb(109, 109, 109);
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+article h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+article p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    text-align: justify;
 }
