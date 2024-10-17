@@ -30,6 +30,7 @@ span#icon {
 
 span#icon:hover {
     background-color: rgb(95, 95, 95);
+    cursor: pointer;
 }
 
 menu {
@@ -59,7 +60,7 @@ menu a:hover {
 }
 
 main {
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     padding: 20px;
     background-color: white;
