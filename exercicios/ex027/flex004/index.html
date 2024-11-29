@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aprendendo flex box</title>
     <style>
-        html {text-align: center;}
         div.container {
+            height: 200px;
             background-color: blueviolet;
             display: flex;
-            flex-flow:row wrap;
-            
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items:stretch;
         }
         div.item {
             background-color: brown;
             border: 1px solid black;
-            flex: auto;
-            padding: 5px;
+            
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">Exemplo de bloco A</div>
-        <div class="item">Exemplo de bloco B</div>
-        <div class="item">Exemplo de bloco C</div>
-        <div class="item">Exemplo de bloco D</div>
-        <div class="item">Exemplo de bloco E</div>
-        <div class="item">Exemplo de bloco F</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
     </div>
 </body>
 </html>
