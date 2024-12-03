@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralizar com flexbox</title>
+    <style>
+        
+        body {
+            background-color: blanchedalmond;
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        main {
+            background-color: yellow;
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            background-color: orange;
+            font-size: 2em;
+            font-weight: bolder;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>centro</section>
+    </main>
+</body>
+</html>
