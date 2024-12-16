@@ -5,30 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aprendendo flex box</title>
     <style>
+
         div.container {
             background-color: blueviolet;
+            text-align: center;
             display: flex;
             flex-flow: row nowrap;
         }
         div.item {
             background-color: brown;
             border: 1px solid black;
+            padding: 5px;
             height: 40px;
             flex-basis: 200px;
         }
 
-        #i1 {
-            flex-shrink: 4;
-            flex-grow: 1;
-        }
-        #i2 {
-            flex-shrink: 0;
-            flex-grow: 0;
-        }
-        #i3 {
-            flex-shrink: 1;
-            flex-grow: 1;
-        }
+        #i1 {flex: 0 1 200px;}
+
+        #i2 {flex: 2 1 200px;}
+
+        #i3 {flex: 0 0 auto;}
+
+        #i4 {flex: 1 1 auto;}
         
     </style>
 </head>
@@ -37,7 +35,7 @@
         <div class="item" id="i1">A</div>
         <div class="item" id="i2">B</div>
         <div class="item" id="i3">C</div>
-        
+        <div class="item" id="i4">D</div>
     </div>
 </body>
 </html>
