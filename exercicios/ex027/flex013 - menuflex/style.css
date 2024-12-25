@@ -14,15 +14,19 @@ body {
 
 header {
     background-color: rgb(73, 73, 73);
-    height: 90px;
+    display: flex;
+    flex-flow: row wrap;
 }
 h1 {
     color: white;
     border: 1px solid black;
+    align-items: flex-start;
 }
 
 nav {
     border: 1px solid black;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 main {
