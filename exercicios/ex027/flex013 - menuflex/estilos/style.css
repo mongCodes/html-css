@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background-color: #cecece;
+}
+
+header {
+    background-color: gray;
+    color: white;
+}
+
+header a {
+    background-color: black;
+    color: white;
+    text-decoration-line: none;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+}
+
+p {
+    text-indent: 30px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
