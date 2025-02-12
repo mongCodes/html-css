@@ -13,17 +13,37 @@ html {
 header {
     background-color: gray;
     color: white;
+    padding: 20px;
+
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
 }
 
-header a {
+h1 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
+}
+
+header nav {
+    padding-top: 10px;
+}
+
+header nav a {
     background-color: black;
     color: white;
     text-decoration-line: none;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 main {
     background-color: white;
+    width: 95vw;
     padding: 15px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
 }
 
 p {
